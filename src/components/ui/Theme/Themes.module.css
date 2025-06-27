@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* .theme {
+  background-color: aqua;
+} */
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 5px 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.light-theme,
+.dark-theme {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.light-theme {
+  background-color: #f0f0f0;
+}
+.dark-theme {
+  background-color: #0f0f1b;
+}
+
+.active {
+  border: 3px solid var(--color-btn);
+}

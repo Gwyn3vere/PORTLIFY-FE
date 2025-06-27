@@ -1,0 +1,84 @@
+/* I. Hero section */
+
+.main .main-text,
+.main .stroke-text {
+  font-family: "Rajdhani", sans-serif;
+  display: inline-block;
+}
+
+.main .main-text {
+  z-index: -1;
+}
+
+.main .stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  z-index: 15;
+  pointer-events: none;
+}
+
+.tagline {
+  font-family: "Anton", sans-serif;
+  font-style: italic;
+  background: var(--color-tag-bg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.taglist .tag {
+  display: inline-block;
+  /* padding: 5px 10px; */
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid var(--color-border-text);
+}
+
+.taglist .active {
+  color: var(--color-tag-active);
+  background: var(--color-tag-bg);
+  border: 2px solid var(--color-tag-bg);
+}
+
+.trusted .trusted-line {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+  border: 1px solid var(--color-tag-bg);
+}
+
+.started {
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  /* box-shadow: var(--color-box-shadow); */
+  background: var(--color-glass-bg);
+}
+
+.started .started-btn {
+  border-radius: 10px;
+  color: var(--color-tag-active);
+  background: var(--color-tag-bg);
+}
+
+.started .started-btn::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+  background: var(--color-bg);
+  transition: width 1s ease-in-out;
+  z-index: 0;
+}
+
+.started .started-btn:hover::before {
+  width: 100%;
+}
+
+.started .started-btn p,
+.started .started-btn span {
+  position: relative;
+  z-index: 1;
+}

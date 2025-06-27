@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "explore": "khám phá",
+    "community": "cộng đồng",
+    "about us": "về chúng tôi",
+    "contracts": "liên hệ"
+  },
+  "user_menu": {
+    "search portfolios, creators, or projects...": "Tìm kiếm portfolio, người sáng tạo hoặc dự án...",
+
+    "messages": "Tin nhắn",
+    "search messages...": "Tìm kiếm tin nhắn...",
+
+    "notifications": "Thông báo",
+    "all": "Tất cả",
+    "unread": "Chưa đọc",
+
+    "view profile": "Xem hồ sơ",
+    "upgrade pro": "Nâng cấp pro",
+
+    "my favorites": "Yêu thích",
+    "my collections": "Bộ sưu tập",
+    "my friends": "Bạn bè",
+    "my portfolio": "Portfolio của tôi",
+    "my blogs": "Blog của tôi",
+    "my history": "Lịch sử của tôi",
+
+    "theme": "Chủ đề",
+
+    "language": "Ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+
+    "settings": "Cài đặt",
+    "help center": "Trung tâm trợ giúp",
+    "logout": "Đăng xuất"
+  },
+  "homepage": {
+    "tagline": "Xây dựng portfolio chuyên nghiệp của bạn, Kết nối đến tương lai",
+    "trusted": "Hơn 1,000 người dùng đã tin tưởng và xây dựng hồ sơ chuyên nghiệp cùng chúng tôi.",
+    "start": "Tạo hồ sơ của bạn",
+
+    "title feature one": "Tùy biến không cần viết code",
+    "desc feature one": "Tự thiết kế portfolio theo ý bạn — kéo thả bố cục, chọn màu sắc, font chữ và sắp xếp các phần.",
+
+    "title feature two": "Thư viện mẫu chuyên nghiệp",
+    "desc feature two": "Lựa chọn từ bộ sưu tập mẫu hiện đại, phù hợp từng ngành nghề và được thiết kế chuyên nghiệp.",
+
+    "title feature three": "Tương thích mọi thiết bị",
+    "desc feature three": "Portfolio của bạn hiển thị hoàn hảo trên mọi thiết bị — từ điện thoại đến máy tính.",
+
+    "title feature four": "Liên kết mạng xã hội & ngoài trang",
+    "desc feature four": "Gắn nút dẫn đến LinkedIn, GitHub, Behance, hoặc blog cá nhân để người xem dễ liên hệ với bạn.",
+
+    "title feature five": "Tối ưu SEO & tốc độ tải",
+    "desc feature five": "Tốc độ tải nhanh và chuẩn SEO — được tối ưu cho hiệu suất và thứ hạng tìm kiếm.",
+
+    "title feature six": "Phân tích lượt truy cập",
+    "desc feature six": "Xem ai đang truy cập portfolio của bạn, họ tương tác thế nào và click vào liên kết nào."
+  }
+}

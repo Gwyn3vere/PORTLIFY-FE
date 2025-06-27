@@ -1,0 +1,21 @@
+.language-item {
+  display: grid;
+  grid-template-columns: 35px auto;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.language-item .menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-item .menu-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 18px;
+}

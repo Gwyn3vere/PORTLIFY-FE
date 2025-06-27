@@ -1,0 +1,67 @@
+/* Keyword Section */
+.typography-word .word {
+  display: inline-block;
+}
+
+.typography-word .stroke {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-border-text);
+}
+
+.key-0 {
+  font-family: "Anton", sans-serif;
+}
+
+.key-1 {
+  font-family: "Fredericka the Great", serif;
+}
+
+.key-2 {
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+}
+
+.key-3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.key-4 {
+  font-family: "Modak", system-ui;
+}
+
+.key-5 {
+  font-family: "Sniglet", system-ui;
+}
+
+.key-6 {
+  font-family: "Charm", cursive;
+}
+
+.key-7 {
+  font-family: "Audiowide", sans-serif;
+}
+
+.key-8 {
+  font-family: "Roboto", sans-serif;
+}
+
+.key-9 {
+  font-family: "Poppins", sans-serif;
+}
+
+.key-10 {
+  font-family: "Island Moments", cursive;
+}
+
+.key-11 {
+  font-family: "Pompiere", sans-serif;
+}
+
+/* Title */
+.icon {
+  color: var(--color-btn);
+}
+
+.typography-decor .border-col {
+  background-color: var(--color-text);
+}

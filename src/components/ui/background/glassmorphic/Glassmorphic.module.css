@@ -1,0 +1,19 @@
+.glassmorphic {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.shape1,
+.shape2,
+.shape3,
+.shape4,
+.shape5,
+.shape6,
+.shape7 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(64px);
+  background: var(--color-glass-shape);
+}
