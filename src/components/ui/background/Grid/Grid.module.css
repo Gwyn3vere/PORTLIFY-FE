@@ -1,0 +1,10 @@
+.grid-pattern {
+  background-image: var(--color-grid-bg);
+  background-size: var(--size-bg);
+  opacity: 0.5;
+
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}

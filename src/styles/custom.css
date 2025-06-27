@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Goldman:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+/* Default variables (fallback) */
+:root {
+  --color-bg: #f5f5f5;
+  --color-nav: #f1f1f1;
+  --color-upgrade: #afafaf;
+  --color-text-upgrade: #1e1e1e;
+  --color-nav-hover: #ecebf0ec;
+  --color-hover: #ecebf0ec;
+  --color-hover: #ecebf0ec;
+  --color-text: #000000;
+  --color-btn: #f9bb0a;
+  --color-btn-hover: #f9bb0a;
+  --color-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  --color-border-conic-gradient-card: #a0f0da, #5cd65c, #00a97f, #66bb6a, #a0f0da;
+
+  /* header */
+  --h-header: 80px;
+}
+html.light {
+  width: auto;
+  --color-bg: linear-gradient(90deg, rgba(249, 187, 10, 1) 0%, rgba(215, 156, 13, 1) 100%);
+
+  --color-tag-active: #ffffff;
+  --color-tag-bg: #01102b;
+
+  --color-marquee-icon: #f9bb0a;
+
+  --color-border-text: #0f0f1b;
+
+  --color-nav: #f1f1f1;
+  --color-nav-hover: #ffffff;
+
+  --color-upgrade: #afafaf;
+  --color-hover: #ecebf0ec;
+
+  --color-text: #1e1e1e;
+  --color-gradient-text: -webkit-radial-gradient(circle, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
+  --color-btn: #f9bb0a;
+  --color-btn-hover: #ffffff;
+  --color-btn-gradient: linear-gradient(55deg, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
+  --color-glass-bg: rgba(255, 255, 255, 0.2);
+  --color-glass-bg-gradient: linear-gradient(135deg, rgba(0, 180, 255, 0.15), rgba(0, 100, 200, 0.1));
+  --color-glass-border: rgba(0, 0, 0, 0.1);
+  --color-glass-boxshadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  --color-glass-shape: linear-gradient(135deg, #74d4f2, #f9a8d4);
+
+  --color-shine-effect: linear-gradient(
+    45deg,
+    transparent 48%,
+    rgba(180, 180, 180, 0.15) 55%,
+    rgba(255, 255, 255, 0.4) 65%,
+    rgba(180, 180, 180, 0.15) 70%,
+    transparent 75%
+  );
+
+  --color-gradient-glassmorphic: radial-gradient(
+    circle,
+    rgba(0, 132, 255, 0.4) 0%,
+    rgba(0, 90, 180, 0.2) 40%,
+    rgba(15, 15, 27, 1) 100%
+  );
+
+  --color-border-conic-gradient-card: #a0f0da, #5cd65c, #00a97f, #66bb6a, #a0f0da;
+
+  --color-grid-bg: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  --size-bg: 100px 100px;
+}
+
+html.dark {
+  width: auto;
+  --color-bg: #01102b;
+
+  --color-tag-active: #ffffff;
+  --color-tag-bg: linear-gradient(90deg, rgba(249, 187, 10, 1) 0%, rgba(215, 156, 13, 1) 100%);
+
+  --color-marquee-icon: #01102b;
+
+  --color-border-text: #ffffff;
+
+  --color-nav: #19192c;
+  --color-nav-hover: #1c1c33;
+
+  --color-upgrade: #afafaf;
+  --color-hover: #1c1c33;
+
+  --color-text: #ffffff;
+  --color-gradient-text: -webkit-radial-gradient(circle, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
+  --color-btn: #f9bb0a;
+  --color-btn-hover: #ffb703;
+  --color-btn-gradient: linear-gradient(55deg, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
+  --color-glass-bg: rgba(255, 255, 255, 0.2);
+  --color-glass-bg-btn: rgb(249, 187, 0.2);
+  --color-glass-bg-gradient: linear-gradient(135deg, rgba(90, 100, 255, 0.15), rgba(180, 100, 255, 0.08));
+  --color-glass-border: rgba(0, 132, 255, 0.2);
+  --color-glass-shape: linear-gradient(-20deg, hsla(281, 100%, 56%, 0.835) 0%, rgba(33, 213, 253, 0.761) 100%);
+  --color-shine-effect: linear-gradient(
+    45deg,
+    transparent 48%,
+    rgba(255, 255, 255, 0.06) 55%,
+    rgba(255, 255, 255, 0.2) 65%,
+    rgba(255, 255, 255, 0.06) 70%,
+    transparent 75%
+  );
+
+  --color-gradient-glassmorphic: radial-gradient(
+    circle,
+    rgba(0, 132, 255, 0.4) 0%,
+    rgba(0, 90, 180, 0.2) 40%,
+    rgba(15, 15, 27, 1) 100%
+  );
+
+  --color-border-conic-gradient-card: #a0f0da, #5cd65c, #00a97f, #66bb6a, #a0f0da;
+
+  --color-grid-bg: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  --size-bg: 20px 20px;
+}
+
+html {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input[type="search"] {
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+input[type="search"] {
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}

@@ -1,0 +1,48 @@
+.auth .sign-up a {
+  font-family: "Goldman", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  border: 3px solid var(--color-text);
+}
+
+.auth .sign-up a:hover {
+  color: var(--color-btn-hover);
+  border: 3px solid var(--color-btn-hover);
+}
+
+.menu span:hover {
+  cursor: pointer;
+  color: var(--color-btn-hover);
+}
+
+.menu .dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background: var(--color-glass-bg);
+  box-shadow: var(--color-box-shadow);
+}
+
+.menu .dropdown .theme,
+.menu .dropdown .language {
+  cursor: pointer;
+  border-radius: 5px;
+  background: var(--color-bg);
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu .dropdown .sub-menu {
+  background: var(--color-bg);
+  border-radius: 5px;
+}
+
+.menu .dropdown span {
+  font-size: 30px;
+}

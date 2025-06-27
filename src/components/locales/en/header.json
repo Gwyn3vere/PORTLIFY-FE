@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "explore": "Explore",
+    "community": "Community",
+    "about us": "About us",
+    "contracts": "Contracts"
+  },
+  "user_menu": {
+    "search portfolios, creators, or projects...": "Search portfolios, creators, or projects...",
+
+    "messages": "Messages",
+    "search messages...": "Search messages...",
+
+    "notifications": "Notifications",
+    "all": "All",
+    "unread": "Unread",
+
+    "view profile": "View Profile",
+    "upgrade pro": "Upgrade Pro",
+
+    "my favorites": "My Favorites",
+    "my collections": "My Collections",
+    "my friends": "My Friends",
+    "my portfolio": "My Portfolio",
+    "my blogs": "My Blogs",
+    "my history": "My History",
+
+    "theme": "Theme",
+
+    "language": "Language",
+    "english": "English",
+    "vietnamese": "Vietnamese",
+
+    "settings": "Settings",
+    "help center": "Help Center",
+    "logout": "Logout"
+  },
+  "homepage": {
+    "tagline": "Build your professional portfolio, Connect with the future",
+    "trusted": "Over 1,000 users trust us to showcase their best work.",
+    "start": "Build Your Portfolio",
+
+    "title feature one": "No-Code Customization",
+    "desc feature one": "Design your portfolio your way — with drag & drop layout, custom colors, fonts, and section arrangements.",
+
+    "title feature two": "Professional Templates",
+    "desc feature two": "Choose from a curated collection of modern, industry-specific templates crafted by designers.",
+
+    "title feature three": "Fully Responsive",
+    "desc feature three": "Your portfolio will look perfect on any screen — from mobile to desktop.",
+
+    "title feature four": "Social & External Links",
+    "desc feature four": "Add buttons to your LinkedIn, GitHub, Behance, or personal blog to let people reach you easily.",
+
+    "title feature five": "SEO & Speed Optimized",
+    "desc feature five": "Load fast and rank higher — built with performance and search engines in mind.",
+
+    "title feature six": "Visitor Analytics",
+    "desc feature six": "See who’s viewing your portfolio, how they interact, and which links they click."
+  }
+}
