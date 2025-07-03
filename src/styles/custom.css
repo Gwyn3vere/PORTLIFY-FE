@@ -22,12 +22,17 @@
 }
 html.light {
   width: auto;
-  --color-bg: linear-gradient(90deg, rgba(249, 187, 10, 1) 0%, rgba(215, 156, 13, 1) 100%);
+  --color-bg: #e0e9f7;
+  --color-bg-secondary: #f8682c;
+  --color-dashed-secondary: #01102b;
 
-  --color-tag-active: #ffffff;
+  --color-tag-active: #e0e9f7;
   --color-tag-bg: #01102b;
 
-  --color-marquee-icon: #f9bb0a;
+  --color-feature-bg: #f8682c;
+  --color-feature-text: #e0e9f7;
+
+  --color-marquee-text: #01102b;
 
   --color-border-text: #0f0f1b;
 
@@ -37,10 +42,10 @@ html.light {
   --color-upgrade: #afafaf;
   --color-hover: #ecebf0ec;
 
-  --color-text: #1e1e1e;
+  --color-text: #01102b;
   --color-gradient-text: -webkit-radial-gradient(circle, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
 
-  --color-btn: #f9bb0a;
+  --color-btn: #f8682c;
   --color-btn-hover: #ffffff;
   --color-btn-gradient: linear-gradient(55deg, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
 
