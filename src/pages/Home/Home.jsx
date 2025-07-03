@@ -15,8 +15,7 @@ function Home() {
   return (
     <div className={cx("home")}>
       <Hero />
-      <Marquee />
-      {/* <Feature /> */}
+      <Feature />
     </div>
   );
 }

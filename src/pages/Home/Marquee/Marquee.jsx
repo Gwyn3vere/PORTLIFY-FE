@@ -38,9 +38,11 @@ function Marquee() {
     <div className={cx("marquee-container")}>
       <div className={cx("marquee")}>
         <div className={cx("marquee-inner")}>
-          <div className={cx("marquee-track", "flex", "items-center")}>
-            {renderItems(items, "a")}
-            {renderItems(items, "b")}
+          <div className={cx("marquee-line")}>
+            <div className={cx("marquee-track", "flex", "items-center")}>
+              {renderItems(items, "a")}
+              {renderItems(items, "b")}
+            </div>
           </div>
         </div>
       </div>
