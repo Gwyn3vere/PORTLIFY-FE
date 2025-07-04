@@ -24,10 +24,29 @@ function Feature() {
             <div className={cx("btn", "uppercase text-[18px] mb-10")}>see more</div>
           </a>
         </div>
-        <div className={cx("right-content")}></div>
-      </div>
-      <div className={cx("absolute z-1 px-20", "bottom-[-20%]")}>
-        <Carousel />
+        <div
+          className={cx(
+            "card",
+            "absolute z-1 flex flex-col items-center justify-between",
+            "bottom-[-20%]",
+            "w-[350px] h-[450px]"
+          )}
+        >
+          <div className={cx("top", "mt-5 w-[300px]")}>
+            <div className={cx("flex justify-between items-center")}>
+              <span className={cx("card-title", "uppercase")}>Title</span>
+              <div className={cx("circle", "flex gap-2")}>
+                <div className={cx("dot")}></div>
+                <div className={cx("dot")}></div>
+              </div>
+            </div>
+            <p className={cx("uppercase text-[15px] mt-3")}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, deleniti modi temporibus laborum
+              dolores
+            </p>
+          </div>
+          <div className={cx("bot", "mb-5 w-[300px] h-[230px]")}></div>
+        </div>
       </div>
       <Marquee />
     </section>

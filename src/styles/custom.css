@@ -24,7 +24,7 @@ html.light {
   width: auto;
   --color-bg: #e0e9f7;
   --color-bg-secondary: #f8682c;
-  --color-dashed-secondary: #01102b;
+  --color-card-border: #01102b;
 
   --color-tag-active: #e0e9f7;
   --color-tag-bg: #01102b;
@@ -33,6 +33,7 @@ html.light {
   --color-feature-text: #e0e9f7;
 
   --color-marquee-text: #01102b;
+  --color-marquee-boxshadow: 0px -10px 30px 5px rgba(0, 0, 0, 0.3), 0px 10px 30px 5px rgba(0, 0, 0, 0.5);
 
   --color-border-text: #0f0f1b;
 
