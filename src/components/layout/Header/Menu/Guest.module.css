@@ -9,13 +9,13 @@
 }
 
 .auth .sign-up a:hover {
-  color: var(--color-btn-hover);
-  border: 3px solid var(--color-btn-hover);
+  color: var(--color-nav-hover);
+  border: 3px solid var(--color-nav-hover);
 }
 
 .menu span:hover {
   cursor: pointer;
-  color: var(--color-btn-hover);
+  color: var(--color-nav-hover);
 }
 
 .menu .dropdown {

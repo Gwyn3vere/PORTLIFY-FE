@@ -14,7 +14,7 @@
 }
 
 .nav li a:hover {
-  color: var(--color-btn-hover);
+  color: var(--color-nav-hover);
 }
 
 /* Mobile */

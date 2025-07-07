@@ -3,7 +3,6 @@ import classNames from "classnames/bind";
 // CSS - UI component - React Icons - Images
 import style from "./Home.module.css";
 import Hero from "./Hero/Hero.jsx";
-import Marquee from "./Marquee/Marquee.jsx";
 import Feature from "./Feature/Feature.jsx";
 import Template from "./Template/Template.jsx";
 import Testimonial from "./Testimonial/Testimonial.jsx";
@@ -16,6 +15,7 @@ function Home() {
     <div className={cx("home")}>
       <Hero />
       <Feature />
+      <Template />
     </div>
   );
 }
