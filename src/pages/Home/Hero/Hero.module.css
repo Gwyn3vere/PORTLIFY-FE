@@ -20,10 +20,6 @@
 .tagline {
   font-family: "Anton", sans-serif;
   font-style: italic;
-  background: var(--color-tag-bg);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .taglist .tag {
@@ -45,13 +41,6 @@
   height: 1px;
   margin: 10px 0;
   border: 1px solid var(--color-tag-bg);
-}
-
-.started {
-  border-radius: 10px;
-  backdrop-filter: blur(20px);
-  /* box-shadow: var(--color-box-shadow); */
-  background: var(--color-glass-bg);
 }
 
 .started .started-btn {

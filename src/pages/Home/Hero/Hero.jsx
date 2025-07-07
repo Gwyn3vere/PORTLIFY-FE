@@ -19,8 +19,8 @@ function Hero() {
       {/* Main text */}
       <div className={cx("main", "md:flex justify-center", "w-full")}>
         <img
-          className={cx("relative", "md:w-[80%] xl:w-[35%]")}
-          src={transparentImages.heroCyperpunk}
+          className={cx("relative", "md:w-[80%] xl:w-[51%]")}
+          src={transparentImages.character2}
           alt="hero ai background"
         />
         <span
@@ -28,8 +28,8 @@ function Hero() {
             "main-text",
             "absolute uppercase",
             "w-[100%]",
-            "top-[50vh] sm:top-94 md:top-140 xl:top-85",
-            "text-[4rem] sm:text-[5rem] md:text-[9rem] xl:text-[13rem]",
+            "top-[48%] sm:top-94 md:top-[38%] xl:top-85",
+            "text-[6rem] sm:text-[5rem] md:text-[9rem] xl:text-[13rem]",
             "font-black leading-none text-center text-white"
           )}
         >
@@ -40,8 +40,8 @@ function Hero() {
             "stroke-text",
             "absolute uppercase",
             "w-[100%]",
-            "top-[50vh] sm:top-94 md:top-140 xl:top-85",
-            "text-[4rem] sm:text-[5rem] md:text-[9rem] xl:text-[13rem]",
+            "top-[48%] sm:top-94 md:top-[38%] xl:top-85",
+            "text-[6rem] sm:text-[5rem] md:text-[9rem] xl:text-[13rem]",
             "font-black leading-none text-center text-white"
           )}
         >
@@ -76,7 +76,7 @@ function Hero() {
           "started",
           "xl:absolute flex justify-center",
           "w-[240px] md:w-[300px] xl:w-[260px]",
-          "p-[10px] md:p-[20px]",
+          // "p-[10px] md:p-[20px]",
           "mb-5 mx-auto xl:my-0",
           "xl:bottom-40",
           "xl:left-23"

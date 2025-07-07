@@ -20,6 +20,8 @@ import logoFullDark from "../images/logo/Logo-full-dark.svg";
 import logoHeaderDark from "../images/logo/Logo-header-dark.svg";
 
 // Transparent images
+import character1 from "./transparent/character_3d_1.png";
+import character2 from "./transparent/character_3d_2.png";
 import heroCyperpunk from "./transparent/cyperpunk.png";
 
 export const avatarImages = {
@@ -46,5 +48,7 @@ export const vectorImages = {
 };
 
 export const transparentImages = {
-  heroCyperpunk
+  heroCyperpunk,
+  character1,
+  character2
 };

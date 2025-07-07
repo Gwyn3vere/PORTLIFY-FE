@@ -38,7 +38,7 @@ html.light {
   --color-border-text: #0f0f1b;
 
   --color-nav: #f1f1f1;
-  --color-nav-hover: #ffffff;
+  --color-nav-hover: #f8682c;
 
   --color-upgrade: #afafaf;
   --color-hover: #ecebf0ec;
@@ -74,8 +74,8 @@ html.light {
 
   --color-border-conic-gradient-card: #a0f0da, #5cd65c, #00a97f, #66bb6a, #a0f0da;
 
-  --color-grid-bg: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  --color-grid-bg: linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
   --size-bg: 100px 100px;
 }
 
@@ -83,15 +83,22 @@ html.dark {
   width: auto;
   --color-bg: #01102b;
 
-  --color-tag-active: #ffffff;
-  --color-tag-bg: linear-gradient(90deg, rgba(249, 187, 10, 1) 0%, rgba(215, 156, 13, 1) 100%);
+  --color-bg-secondary: #f8682c;
+  --color-card-border: #01102b;
 
-  --color-marquee-icon: #01102b;
+  --color-tag-active: #e0e9f7;
+  --color-tag-bg: #f8682c;
+
+  --color-feature-bg: #f8682c;
+  --color-feature-text: #e0e9f7;
+
+  --color-marquee-text: #01102b;
+  --color-marquee-boxshadow: 0px -10px 30px 5px rgba(0, 0, 0, 0.3), 0px 10px 30px 5px rgba(0, 0, 0, 0.5);
 
   --color-border-text: #ffffff;
 
   --color-nav: #19192c;
-  --color-nav-hover: #1c1c33;
+  --color-nav-hover: #f8682c;
 
   --color-upgrade: #afafaf;
   --color-hover: #1c1c33;
