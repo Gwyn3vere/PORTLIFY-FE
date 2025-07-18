@@ -1,0 +1,76 @@
+.wall-wrapper {
+  background: #141025;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wall-content {
+  display: flex;
+  flex-direction: row;
+  transform: rotate(30deg);
+  transform-origin: center;
+}
+
+.marquee-container {
+  margin: 0 5px;
+  height: 200vh;
+  max-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.marquee-container .marquee {
+  animation: scroll-up 50s linear infinite;
+  will-change: transform;
+  width: max-content;
+}
+
+.marquee-container .reverse {
+  animation: scroll-down 50s linear infinite;
+}
+
+.marquee-container .marquee .card {
+  width: 270px;
+  height: 210px;
+  border-radius: 10px;
+  background: var(--color-bg);
+}
+
+.marquee-container .marquee .card .image {
+  width: 250px;
+  height: 150px;
+  background: #d5dfef;
+  border-radius: 10px;
+}
+
+.marquee-container .marquee .card .content {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.marquee-container .marquee .card .content .user .avatar {
+  background: #d5dfef;
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

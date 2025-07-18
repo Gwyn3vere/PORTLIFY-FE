@@ -14,3 +14,61 @@ export const rateData = [
   { id: 4, star: <BiSolidStar /> },
   { id: 5, star: <BiSolidStarHalf /> }
 ];
+
+export const portfolioData = [
+  {
+    id: 1,
+    title: "Portfolio 1",
+    description: "Description of Portfolio 1",
+    image: "https://via.placeholder.com/150",
+    link: "https://example.com/portfolio1",
+    favorite: 10,
+    views: 100,
+    comments: 5,
+    userAvatar: "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    id: 2,
+    title: "Portfolio 2",
+    description: "Description of Portfolio 2",
+    image: "https://via.placeholder.com/150",
+    link: "https://example.com/portfolio2",
+    favorite: 10,
+    views: 100,
+    comments: 5,
+    userAvatar: "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    id: 3,
+    title: "Portfolio 3",
+    description: "Description of Portfolio 3",
+    image: "https://via.placeholder.com/150",
+    link: "https://example.com/portfolio3",
+    favorite: 10,
+    views: 100,
+    comments: 5,
+    userAvatar: "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    id: 4,
+    title: "Portfolio 4",
+    description: "Description of Portfolio 4",
+    image: "https://via.placeholder.com/150",
+    link: "https://example.com/portfolio4",
+    favorite: 10,
+    views: 100,
+    comments: 5,
+    userAvatar: "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    id: 5,
+    title: "Portfolio 5",
+    description: "Description of Portfolio 5",
+    image: "https://via.placeholder.com/150",
+    link: "https://example.com/portfolio5",
+    favorite: 10,
+    views: 100,
+    comments: 5,
+    userAvatar: "https://randomuser.me/api/portraits/men/75.jpg"
+  }
+];

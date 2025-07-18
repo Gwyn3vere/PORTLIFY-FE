@@ -1,6 +1,5 @@
 // Layout component
 import Header from "./Header/header";
-import Glassmorphic from "../ui/background/glassmorphic/glassmorphic";
 import Grid from "../ui/background/Grid/Grid";
 
 function MainLayout({ children }) {

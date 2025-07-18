@@ -17,7 +17,7 @@ function Marquee() {
     "Be Confident",
     "Get Hired"
   ];
-  const items = Array.from({ length: 20 }, (_, i) => words[i % words.length]);
+  const items = Array.from({ length: 10 }, (_, i) => words[i % words.length]);
 
   // Hàm render từng phần từ xen kẽ icon
   function renderItems(items, keyPrefix) {
